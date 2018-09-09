@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.bojja.mvnapp.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.035 s <<< FAILURE! - in org.bojja.mvnapp.AppTest
+shouldAnswerWithTrue(org.bojja.mvnapp.AppTest)  Time elapsed: 0.015 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Test assert[]> but was:<Test assert[ fail]>
+	at org.bojja.mvnapp.AppTest.shouldAnswerWithTrue(AppTest.java:21)
+
