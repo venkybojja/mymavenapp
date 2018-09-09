@@ -18,7 +18,7 @@ public class AppTest
         //assertTrue( true );
 		String message="Test assert";
 		System.out.println("shouldAnswerWithTrue:"+message);
-		Assert.assertEquals(message,new App().printMessage(message+" fail"));
+		Assert.assertEquals(message,new App().printMessage(message));
 		System.out.println("shouldAnswerWithTrue:Assert completed");
 		
     }
